@@ -13,6 +13,8 @@
 		0A926B2D1F18601300CD3242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A926B2B1F18601300CD3242 /* Main.storyboard */; };
 		0A926B2F1F18601300CD3242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A926B2E1F18601300CD3242 /* Assets.xcassets */; };
 		0A926B321F18601300CD3242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A926B301F18601300CD3242 /* LaunchScreen.storyboard */; };
+		0A926B3B1F18608B00CD3242 /* DrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A926B3A1F18608B00CD3242 /* DrawingBoardView.m */; };
+		0A926B3E1F1860CB00CD3242 /* GraphicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A926B3D1F1860CB00CD3242 /* GraphicsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0A926B2E1F18601300CD3242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A926B311F18601300CD3242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A926B331F18601300CD3242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A926B391F18608B00CD3242 /* DrawingBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardView.h; sourceTree = "<group>"; };
+		0A926B3A1F18608B00CD3242 /* DrawingBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardView.m; sourceTree = "<group>"; };
+		0A926B3C1F1860CB00CD3242 /* GraphicsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsModel.h; sourceTree = "<group>"; };
+		0A926B3D1F1860CB00CD3242 /* GraphicsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0A926B261F18601300CD3242 /* AppDelegate.m */,
 				0A926B281F18601300CD3242 /* ViewController.h */,
 				0A926B291F18601300CD3242 /* ViewController.m */,
+				0A926B391F18608B00CD3242 /* DrawingBoardView.h */,
+				0A926B3A1F18608B00CD3242 /* DrawingBoardView.m */,
+				0A926B3C1F1860CB00CD3242 /* GraphicsModel.h */,
+				0A926B3D1F1860CB00CD3242 /* GraphicsModel.m */,
 				0A926B2B1F18601300CD3242 /* Main.storyboard */,
 				0A926B2E1F18601300CD3242 /* Assets.xcassets */,
 				0A926B301F18601300CD3242 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A926B3E1F1860CB00CD3242 /* GraphicsModel.m in Sources */,
+				0A926B3B1F18608B00CD3242 /* DrawingBoardView.m in Sources */,
 				0A926B2A1F18601300CD3242 /* ViewController.m in Sources */,
 				0A926B271F18601300CD3242 /* AppDelegate.m in Sources */,
 				0A926B241F18601300CD3242 /* main.m in Sources */,
@@ -312,6 +324,7 @@
 				0A926B381F18601300CD3242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,1 +1,2 @@
 # ZKDrawLineMove
+最近项目中有一个画线需求：画出的线能够进行交互，一开始进入一个误区，画出的线如何添加手势问题，最后看苹果的官方文档，才发现coreGraphic画出的线没办法对线添加手势，最终在stackOverFlow中找到一个几年前提出的问题，其实实现交互就是对线的重绘改变startpoint 和 endPoint，判断点击区域是否在给定的范围。实现touchesBegan；touchesMoved 方法，最终实现对线的重绘的效果
